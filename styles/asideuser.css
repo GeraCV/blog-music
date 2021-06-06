@@ -1,0 +1,38 @@
+.user {
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
+.btn-loged {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid  var(--color-btn);
+  border-radius: .5em;
+  padding: .7em 1em;
+  color: var(--color-text-item);
+  background: var(--color-btn);
+  margin: 1.5rem 0;
+}
+
+.second-section {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+
+@media screen and (min-width: 640px) {
+
+  .second-section {
+    width: 70%;
+    margin: 5rem auto;
+  }
+}
+
+@media screen and (min-width: 950px) {
+
+  .second-section {
+    width: 50%;
+    margin: 5rem auto;
+  }
+}

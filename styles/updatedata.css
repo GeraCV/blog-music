@@ -1,0 +1,40 @@
+.container-form-update-data {
+    margin-bottom: 10rem;
+}
+
+.text-update {
+  margin-bottom: 1rem;
+}
+
+.title-update {
+  margin: 2rem 0;
+}
+
+.form-update {
+  display: grid;
+}
+
+.btn-update {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.inpt-update {
+  width: 90%;
+}
+
+@media screen and (min-width: 950px) {
+
+  .form-update {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .btn-update {
+    width: 50%;
+    margin: auto;
+  }
+
+  .inpt-update {
+  width: 70%;
+}
+}

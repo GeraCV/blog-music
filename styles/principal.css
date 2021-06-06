@@ -1,0 +1,35 @@
+
+.container-articles {
+  height: 100%;
+  border-radius: .5rem;
+}
+
+.article {
+  border-bottom: 1px solid gray;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+
+}
+
+.title-section {
+  font-size: 2rem;
+  margin: 2rem 1rem;
+  font-weight: 500;
+}
+
+
+.title-article {
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.text-article {
+  padding: 1rem;
+  font-weight: 400;
+}
+
+.subtitle {
+  margin-left: 1rem;
+  font-style: oblique;
+  opacity: .7;
+}
