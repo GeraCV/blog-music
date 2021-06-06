@@ -19,7 +19,7 @@
              <?php   
                $categories = getCategory($db, $idCategory);
                if( mysqli_fetch_assoc($categories) === null) {
-                  header('Location: ./principal.php');
+                  header('Location: ../index.php');
                 }
                 $posts = getLastPost($db);
                 while ($category = mysqli_fetch_assoc($categories)):

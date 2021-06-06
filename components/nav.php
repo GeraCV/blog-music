@@ -4,7 +4,7 @@
 
   <nav class="nav">
     <ul class="menu " id="menu" >
-      <li class="item"><a href="../pages/principal.php" class="enlace-item"> Inicio </a></li>
+      <li class="item"><a href="../index.php" class="enlace-item"> Inicio </a></li>
       <li class="item"><a href="./loginandregister.php" class="enlace-item"> Registrate </a></li>
       <li class="item"><a href="./loginandregister.php" class="enlace-item"> Inicia sesión </a></li>
          <?php $categories = getCategories($db) ?>

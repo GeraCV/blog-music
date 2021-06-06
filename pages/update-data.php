@@ -58,7 +58,7 @@
 <?php deleteErrors();?>
 <?php endif; ?>
 <?php if(!isset($_SESSION['user_active'])): ?>
-<?php header('Location: ./principal.php')  ?>
+<?php header('Location: ../index.php')  ?>
 <?php endif; ?>
 
 
